@@ -9,15 +9,15 @@ class MahasiswaController extends Controller
     //
     public function index()
     {
-        $Mahasiswa = [
+        $mahasiswa = [
             'nim' => '251011700764',
             'nama' => 'Ainin mardiah lase',
             'prodi' => 'Sistem informasi',
             'email' => '@aininmardiahlase',
             'kampus' => 'unpam',
-            'Status' => 'Aktif',
+            'status' => 'Aktif',
         ];
 
-        return view ('mahasiswa', compact ('mahasiswa'));
+        return view ('page.profile'), compact ('mahasiswa'));
     }
 }
