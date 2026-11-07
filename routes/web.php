@@ -15,3 +15,5 @@ Route::get('/projrct/{id}',[ProjectController::class, 'index'])->name('project.s
 Route::get('/about', function () {
     return view('page.about');
 });
+
+//sudah selesai
