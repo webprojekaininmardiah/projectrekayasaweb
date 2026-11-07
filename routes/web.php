@@ -16,4 +16,4 @@ Route::get('/about', function () {
     return view('page.about');
 });
 
-//sudah selesai
+//sudah selesa
