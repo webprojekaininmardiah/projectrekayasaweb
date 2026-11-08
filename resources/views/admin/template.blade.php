@@ -158,7 +158,7 @@
     <div class="admin-sidebar shadow">
         <h5>Admin Menu</h5>
 
-        <a href="{{ route('home') }}">
+        <a href="{{ route('admin.dashboard') }}">
             Dashboard
         </a>
 

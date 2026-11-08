@@ -29,7 +29,7 @@
                             <small>Tech : {{ $project->teknologi }}</small>
                         </div>
 
-                        <a href="{{ route('project.show', $project->id) }}"
+                        <a href="{{ route('projects.show', $project->id) }}"
                            class="btn btn-primary w-100">
                             Detail Project</a>
                     </div>

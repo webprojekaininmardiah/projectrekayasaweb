@@ -6,7 +6,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav d-flex flex-row gap-4 ms-auto">
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('/') }}">Home</a>
             </li>
@@ -19,7 +19,8 @@
                 <a class="nav-link" href="{{ url('/about') }}">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{ url('/project') }}">Project</a>
+                <a class="nav-link text-white" href="{{ url('/projects') }}">Project</a>
+
             </li>
         </ul>
     </div>

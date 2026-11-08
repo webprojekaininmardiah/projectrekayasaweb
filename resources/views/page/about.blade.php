@@ -2,7 +2,7 @@
 
 @section('title','about')
 
-@selection('content')
+@section('content')
 <div class="container flex-grow-1">
     <div class="row">
         <div class="col-md-12">

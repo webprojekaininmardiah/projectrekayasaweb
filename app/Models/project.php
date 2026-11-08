@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 class project extends Model
 {
     //
-    use HasFactori;
+     use HasFactory;
     protected $table = "projects";
     protected $fillable =[
         "title",
